@@ -15,8 +15,8 @@
 //================================================
 #define MQTT_SERVER "192.168.1.170"  //you MQTT IP Address
 #define HOSTNAME "esp8266-UpperStaircaseHndLight" //MaxLength=32
-const char* ssid = "Telia-BBB78F";
-const char* password = "7E7FCAF7FD";
+const char* ssid = "WIFI SSID";
+const char* password = "SECRETE WIFI PWD";
 const int dimmerPin = D1; // Data PIN Assignment on WEMOS D1 R2 https://www.wemos.cc/product/d1.html
 char const* commandTopic = "home/staircase/upper/handlelight/set"; // Refer to Home Assistant YAML Configuration component entry
 char const* stateTopic = "home/staircase/upper/handlelight/state"; // Refer to Home Assistant YAML Configuration component entry
